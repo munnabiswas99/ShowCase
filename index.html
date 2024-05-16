@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="JS/script.js"></script>
     <title>Landing Page</title>
 </head>
 <body>
@@ -19,10 +20,8 @@
                 <p class="pt-4">Show yourself</p>
             </div>
             <div class="p-2 md:p-2 lg:pd-0 pr-5 font-semibold">
-                <a href="home.html">
-                    <button class="bg-gray-300 rounded-full px-3 py-1">login .</button>
-                </a>
-                <button class="bg-black text-white px-3 py-1 rounded-full ml-1">Sign Up</button>
+                <button class="bg-gray-300 rounded-full px-3 py-1" onclick="homePage() ">login .</button>
+                <button class="bg-black text-white px-3 py-1 rounded-full ml-1" onclick="my_modal_1.showModal()">Sign Up</button>
             </div>
         </section>
     </header>
@@ -73,9 +72,7 @@
                 </label>
                 <input class="shadow appearance-none border rounded w-2/4 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="password" placeholder="********">
               </div>
-              <a href="home.html">
-                <button class="bg-black text-white px-3 py-1 rounded-full ml-1">Sign Up</button>
-              </a>
+                <button class="bg-black text-white px-3 py-1 rounded-full ml-1" onclick="homePage()">Sign Up</button>
             <div class="modal-action">
             <form method="dialog">
                 <!-- if there is a button in form, it will close the modal -->
