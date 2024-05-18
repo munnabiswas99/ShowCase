@@ -6,8 +6,16 @@ function community(){
     window.location.href = "Community.html";
 };
 
-function home(){
-    window.location.href = "profile.html"
+function profile(){
+    window.location.href = "profile.html";
+};
+
+function openTerms(){
+    window.open('https://policies.google.com/terms')
+}
+
+function openPolicy(){
+    window.open('https://policies.google.com/terms')
 }
 
 // function buttonAction1(){

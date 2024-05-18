@@ -9,21 +9,21 @@
 </head>
 <body>
     <header>
-        <section class="banner flex flex-row justify-between mt-4">
-            <div class="flex flex-row justify-evenly gap-5 pl-5 font-semibold">
-                <button onclick="homePage()"><img class="w-5" src="Image/home.png" alt=""></button>
+        <section class="banner flex flex-col md:flex-row lg:flex-row justify-between mt-4">
+            <div class="flex flex-col md:flex-row lg:flex-row justify-evenly gap-5 pl-5 font-semibold">
+                <button class="bg-gray-200 rounded-lg px-2 py-1" onclick="homePage()"><img class="w-5" src="Image/home.png" alt=""></button>
                 <button>Find talent</button>
                 <button>Inspiration</button>
                 <button>Jobs</button>
                 <button onclick="community()">My Network</button>
             </div>
             <div class="flex flex-row justify-evenly gap-2">
-                <h1 class="text-4xl font-sans italic font-bold">SHOW CASE</h1>
+                <h1 class="text-sm md:text-sm lg:text-4xl font-sans italic font-bold">SHOW CASE</h1>
                 <p class="pt-4">Show yourself</p>
             </div>
-            <div class="pr-5 font-semibold">
+            <div class="pr-5 font-semibold flex flex-col md:flex-row lg:flex-row">
                 <input type="text" placeholder="Search" class="input input-bordered w-24 h-8 md:w-auto bg-gray-200 rounded-lg p-2" />
-                <button class="bg-black text-white px-3 py-1 rounded-full ml-1 mx-4">Share Now</button>
+                <button class="bg-black text-white px-3 py-1 rounded-full ml-1 mx-4 w-auto">Share Now</button>
                 <button class="bg-gray-200 w-8 h-8 rounded-full" onclick="profile()"><img class="p-1" src="Image/user.png" alt=""></button>
             </div>
         </section>
@@ -33,9 +33,9 @@
     <body>
         <div>
             <!-- Div-1 -->
-            <section class="flex">
-                <div class="width-auto mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/public speaking.jpeg" alt="">
+            <section class="flex flex-col md:flex-row lg:flex-row">
+                <div class="width-auto m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/public speaking.jpeg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -47,8 +47,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/painting.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/painting.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -60,8 +60,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/marketing.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/marketing.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -72,8 +72,8 @@
                         <img class="ml-3 w-20" src="Image/rating.png" alt="">
                     </div>
                 </div>
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/program.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/program.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -87,9 +87,9 @@
             </section>
 
             <!-- Div-2 -->
-            <section class="flex">
-                <div class="width-auto mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/music.jpg" alt="">
+            <section class="flex flex-col md:flex-row lg:flex-row">
+                <div class="width-auto m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/music.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -101,8 +101,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/stat.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/stat.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -114,8 +114,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/gaming.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/gaming.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -126,8 +126,8 @@
                         <img class="ml-3 w-20" src="Image/rating.png" alt="">
                     </div>
                 </div>
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/discussion.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/discussion.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -140,9 +140,9 @@
                 </div>
             </section>
             <!-- Div-3 -->
-            <section class="flex">
-                <div class="width-auto mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/machanics.jpg" alt="">
+            <section class="flex flex-col md:flex-row lg:flex-row">
+                <div class="width-auto m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/machanics.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -154,8 +154,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/family.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/family.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -167,8 +167,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/textile.png" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/textile.png" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -179,8 +179,8 @@
                         <img class="ml-3 w-20" src="Image/rating.png" alt="">
                     </div>
                 </div>
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/football.jpeg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/football.jpeg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -194,9 +194,9 @@
             </section>
 
             <!-- Div-4 -->
-            <section class="flex">
-                <div class="width-auto mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/public speaking.jpeg" alt="">
+            <section class="flex flex-col md:flex-row lg:flex-row">
+                <div class="width-auto m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/public speaking.jpeg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -208,8 +208,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/painting.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/painting.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -221,8 +221,8 @@
                     </div>
                 </div>
 
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/marketing.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/marketing.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -233,8 +233,8 @@
                         <img class="ml-3 w-20" src="Image/rating.png" alt="">
                     </div>
                 </div>
-                <div class="mx-2 mt-5">
-                    <img class="bg-gray-200 p-2 rounded-lg" src="Image/program.jpg" alt="">
+                <div class="mx-2 m-5">
+                    <img class="bg-gray-200 p-4 rounded-lg" src="Image/program.jpg" alt="">
                     <div class="flex justify-between w-5 mt-2">
                         <button class="bg-gray-200 w-8 h-8 rounded-full"><img class="p-1" src="Image/user.png" alt=""></button>
                         <p>name</p>
@@ -252,7 +252,7 @@
 
     <!-- Footer -->
     <footer>
-        <div class="flex justify-between m-10 font-semibold">
+        <div class="flex flex-col md:flex-row lg:flex-row justify-between m-10 font-semibold">
             <h3 class="text-4xl font-sans italic font-bold">SHOW CASE</h3>
             <p>Branding</p>
             <p>Design</p>
@@ -271,9 +271,9 @@
         <div class="flex justify-between m-16">
             <p>Copyright © 2023 - All right reserved by SHOW CASE</p>
             <div class="flex justify-evenly gap-5">
-                <p>Terms</p>
-                <p>Privacy</p>
-                <p>Coockies</p>
+                <button onclick="openTerms()">Terms</button>
+                <button onclick="openPolicy()">Privacy</button>
+                <button>Coockies</button>
             </div>
         </div>
     </footer>
