@@ -18,18 +18,7 @@ function openPolicy(){
     window.open('https://policies.google.com/terms')
 }
 
-// function buttonAction1(){
-//     document.getElementById('btAction1').style.backgroundColor = '#00A86B';
-//     document.getElementById('btAction1').innerText = 'Added'
-// }
-// function buttonAction2(){
-//     document.getElementById('btAction2').style.backgroundColor = '#00A86B';
-//     document.getElementById('btAction2').innerText = 'Added'
-// }
-// function buttonAction3(){
-//     document.getElementById('btAction3').style.backgroundColor = '#00A86B';
-//     document.getElementById('btAction3').innerText = 'Added'
-// }
+
 
 function changeColor1() {
     const buttons = document.querySelectorAll(".btn-1");
@@ -62,3 +51,4 @@ function changeColor3() {
       });
     }
 }
+
